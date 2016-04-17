@@ -1,0 +1,89 @@
+	
+body {
+	background-color: #F1F3F2;
+}
+.container {
+	padding-top: 65px;
+}
+
+.form-group {
+	margin: 20px 0;
+}
+.form-group input{
+	width: 350px;
+}
+
+.form-group textarea {
+	width: 350px;
+	height: 240px;
+}
+
+#submit {
+	width: 100px;
+}
+
+.linkButton { 
+     background: none;
+     border: none;
+     color: #0066ff;
+     text-decoration: underline;
+     cursor: pointer; 
+}
+
+/*.grid {
+  background: #EEE;
+  max-width: 1200px;
+}*/
+
+/* clearfix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- grid-item ---- */
+
+/*.grid-item {
+  width: 160px;
+  height: 120px;
+  float: left;
+  background: #D26;
+  border: 2px solid #333;
+  border-color: hsla(0, 0%, 0%, 0.5);
+  border-radius: 5px;
+}*/
+.grid-item {
+	background-color: #F1F3F2;
+	width: 15em;
+	/*display: inline-block;*/
+	float: left;
+	border: 0px;
+	margin:5px;
+/*	-webkit-box-shadow: 0 6px 6px -6px #ccc;
+	-moz-box-shadow: 0 6px 6px -6px #ccc;
+	box-shadow: 0 6px 6px -6px #ccc;
+	-webkit-column-break-inside: avoid;
+	-moz-column-break-inside: avoid;
+	column-break-inside: avoid;*/
+}
+.grid-item img {
+	border-radius: 0.5em 0.5em 0 0;
+}
+.grid-item .panel-heading {
+	background-color: #F1F3F2;
+	margin: 0;
+	padding: 0;
+}
+.grid-item .panel-footer {
+	background-color: #fff;
+	padding-top: 0.2em;
+	margin: 0;
+	height: 3em;
+	border-radius: 0 0 0.5em 0.5em;
+}
+
+.grid-item .panel-footer a {
+	font-size: 0.8em;
+}
+
